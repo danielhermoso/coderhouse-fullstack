@@ -1,0 +1,106 @@
+*, *:before, *:after{
+	box-sizing:border-box;
+}
+
+body{
+	margin: 0px;
+}
+
+.mainHeader{
+	height: 70px;
+	background-color: #C84742;
+}
+
+.mainHeader .content{
+	width: 930px;
+	margin: 0 auto;
+	position: relative;
+}
+
+@media screen and (max-width: 930px){
+	.mainHeader .content{
+		width: 100%;
+	}
+
+	.mainHeader .content .menu .menuList .menuItem .link{
+	font-size: 10px;
+	}
+
+}
+
+@media screen and (max-width: 750px){
+	.mainHeader .content .menu .menuList .menuItem{
+	display: block;
+	}
+
+}
+
+.mainHeader .content .logo{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.mainHeader .content .menu{
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+	right: 20px;
+}
+
+.mainHeader .content .menu .menuList{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.mainHeader .content .menu .menuList .menuItem{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.mainHeader .content .menu .menuList .menuItem:last-child{
+	display: inline-block;
+	margin-right: 0px;
+}
+
+.mainHeader .content .menu .menuList .menuItem .link{
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+
+.main .banner .content{
+	margin: 0 auto;
+	/*position: relative;*/
+	height: 453px;
+	overflow: auto;
+	background-image: url("http://exclusiveventas.cl/static/images/carouselItem4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	-webkit-filter:grayscale(100%);
+}
+
+.main .banner .content .list{
+	list-style: none;
+}
+
+.main .banner .content .photoText{
+	margin-left: 250px;
+	margin-top: 60px;
+	color: white;
+	font-size: 25px;
+	font-family: Arial;
+	display: inline-block;
+}
+
+.main .banner .content .sliderNavigation{
+	margin-top: 300px;
+	text-align: center;
+}
+
+

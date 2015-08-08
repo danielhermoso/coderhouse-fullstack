@@ -1,0 +1,10 @@
+! + tab   crae plantilla html
+
+Consola Chrome:
+	-Elements: arbol de elementos. Estilos que impactan en la etiqueta seleccionada
+	-Network: request que consume la pagina.
+	-Sources: archivos que consume la pagina.
+	-Timeline: medir performance.
+	-Resources:
+	-Console
+
